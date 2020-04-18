@@ -11,9 +11,7 @@ const mixin = {
 		 */
 		asNavFor: {
 			type: Array,
-			default: function () {
-				return []
-			}
+			default: () => []
 		},
 
 		/**
